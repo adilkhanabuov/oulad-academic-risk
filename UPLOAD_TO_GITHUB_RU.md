@@ -33,7 +33,7 @@ https://github.com/USERNAME/oulad-course-conditioned-risk-prediction
 
 В статью можно вставить формулировку:
 
-> Скрипты подготовки данных, обучения, абляции и бутстреп-анализа доступны в открытом репозитории: https://github.com/USERNAME/oulad-course-conditioned-risk-prediction
+> Скрипты подготовки данных, обучения, абляции и бутстреп-анализа доступны в открытом репозитории: (https://github.com/adilkhanabuov/oulad-academic-risk)
 
 ## Важно перед публикацией
 
