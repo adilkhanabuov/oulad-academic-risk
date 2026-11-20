@@ -1,0 +1,36 @@
+{
+  "bootstrap_replicates": 2000,
+  "bootstrap_design": "student-cluster resampling of the 2014J test set plus resampling of five neural seeds",
+  "n_registrations": 7827,
+  "n_student_clusters": 7525,
+  "neural_seeds": [
+    20261001,
+    20261002,
+    20261003,
+    20261004,
+    20261005
+  ],
+  "observed": {
+    "hybrid_mean_pr_auc": 0.6605882043614173,
+    "logistic_pr_auc": 0.6520771400547207,
+    "hgb_pr_auc": 0.644140857024392
+  },
+  "comparisons_hybrid_minus_baseline": {
+    "logistic": {
+      "observed_delta": 0.00851106430669657,
+      "student_cluster_bootstrap_95ci": [
+        0.00271472809073236,
+        0.014575450402086262
+      ],
+      "probability_delta_gt_zero": 0.9955
+    },
+    "hgb": {
+      "observed_delta": 0.016447347337025242,
+      "student_cluster_bootstrap_95ci": [
+        0.009191423989127956,
+        0.023401976155028207
+      ],
+      "probability_delta_gt_zero": 1.0
+    }
+  }
+}

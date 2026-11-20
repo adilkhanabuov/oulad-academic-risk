@@ -1,0 +1,54 @@
+{
+  "seeds": [
+    20261001,
+    20261002,
+    20261003,
+    20261004,
+    20261005
+  ],
+  "split_registrations": {
+    "train": 11626,
+    "validation": 5745,
+    "test": 7827
+  },
+  "split_unique_students": {
+    "train": 11511,
+    "validation": 5475,
+    "test": 7525
+  },
+  "student_overlap": {
+    "train_validation": 0,
+    "train_test": 0,
+    "validation_test": 0
+  },
+  "paired_delta_with_minus_without": {
+    "precision": {
+      "mean": 0.002806379198450948,
+      "std": 0.0
+    },
+    "recall": {
+      "mean": 0.005453306066802943,
+      "std": 0.0
+    },
+    "f1": {
+      "mean": 0.0037286792239945576,
+      "std": 0.0
+    },
+    "roc_auc": {
+      "mean": 0.01979776905393682,
+      "std": 0.0
+    },
+    "pr_auc": {
+      "mean": 0.030623099445496904,
+      "std": 0.0
+    },
+    "brier": {
+      "mean": -0.007151118575919879,
+      "std": 0.0
+    },
+    "threshold": {
+      "mean": -0.0050000000000000044,
+      "std": 0.0
+    }
+  }
+}

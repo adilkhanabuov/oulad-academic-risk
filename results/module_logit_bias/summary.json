@@ -1,0 +1,152 @@
+{
+  "seeds": [
+    20261001,
+    20261002,
+    20261003,
+    20261004,
+    20261005
+  ],
+  "split": {
+    "train": 11626,
+    "validation": 5745,
+    "test": 7827
+  },
+  "neural_existing_pr_auc": [
+    {
+      "scope": "all",
+      "variant": "full_conditioned",
+      "mean": 0.6605800126899164,
+      "std": 0.0034743463995389064
+    },
+    {
+      "scope": "all",
+      "variant": "module_output_only",
+      "mean": 0.6592002835675272,
+      "std": 0.003275338107385497
+    },
+    {
+      "scope": "all",
+      "variant": "no_attention",
+      "mean": 0.6609931155789578,
+      "std": 0.003331831024348911
+    },
+    {
+      "scope": "all",
+      "variant": "no_learned_gate",
+      "mean": 0.6585042794624153,
+      "std": 0.003618362930550968
+    },
+    {
+      "scope": "all",
+      "variant": "no_module",
+      "mean": 0.6278404171399206,
+      "std": 0.0015152293648380334
+    },
+    {
+      "scope": "without_CCC",
+      "variant": "full_conditioned",
+      "mean": 0.6644423799100266,
+      "std": 0.0019521034925128575
+    },
+    {
+      "scope": "without_CCC",
+      "variant": "module_output_only",
+      "mean": 0.6633817835066164,
+      "std": 0.001567805655064548
+    },
+    {
+      "scope": "without_CCC",
+      "variant": "no_attention",
+      "mean": 0.6643733209024527,
+      "std": 0.0019437446904941
+    },
+    {
+      "scope": "without_CCC",
+      "variant": "no_learned_gate",
+      "mean": 0.6636084870003223,
+      "std": 0.0016963117983381704
+    },
+    {
+      "scope": "without_CCC",
+      "variant": "no_module",
+      "mean": 0.6286556174954316,
+      "std": 0.00104791641897148
+    }
+  ],
+  "module_logit_bias": [
+    {
+      "('scope', '')": "all",
+      "('variant', '')": "module_logit_bias",
+      "('recall', 'mean')": 0.8041581459,
+      "('recall', 'std')": 0.048423647,
+      "('f1', 'mean')": 0.6026010742,
+      "('f1', 'std')": 0.0046334112,
+      "('roc_auc', 'mean')": 0.7298741814,
+      "('roc_auc', 'std')": 0.0043320148,
+      "('pr_auc', 'mean')": 0.6446102231,
+      "('pr_auc', 'std')": 0.0053689995,
+      "('brier', 'mean')": 0.204964149,
+      "('brier', 'std')": 0.0025395657,
+      "('best_epoch', 'mean')": 28.6,
+      "('best_epoch', 'std')": 1.1401754251
+    },
+    {
+      "('scope', '')": "without_CCC",
+      "('variant', '')": "module_logit_bias",
+      "('recall', 'mean')": 0.821287337,
+      "('recall', 'std')": 0.0490924522,
+      "('f1', 'mean')": 0.5965533871,
+      "('f1', 'std')": 0.0070120652,
+      "('roc_auc', 'mean')": 0.7417337658,
+      "('roc_auc', 'std')": 0.0073178575,
+      "('pr_auc', 'mean')": 0.6456069584,
+      "('pr_auc', 'std')": 0.0099384861,
+      "('brier', 'mean')": 0.2014084309,
+      "('brier', 'std')": 0.0034046793,
+      "('best_epoch', 'mean')": 28.6,
+      "('best_epoch', 'std')": 1.1401754251
+    }
+  ],
+  "hgb_scopes": [
+    {
+      "variant": "hgb_with_module",
+      "scope": "all",
+      "recall": 0.7944785276073619,
+      "f1": 0.5989208633093526,
+      "roc_auc": 0.7297476842883515,
+      "pr_auc": 0.644140857024392,
+      "brier": 0.19882264835128766,
+      "threshold": 0.30000000000000004
+    },
+    {
+      "variant": "hgb_with_module",
+      "scope": "without_CCC",
+      "recall": 0.806899453092133,
+      "f1": 0.5912453760789149,
+      "roc_auc": 0.7384198513785076,
+      "pr_auc": 0.6453078052680448,
+      "brier": 0.19487772786785731,
+      "threshold": 0.30000000000000004
+    },
+    {
+      "variant": "hgb_without_module",
+      "scope": "all",
+      "recall": 0.789025221540559,
+      "f1": 0.595192184085358,
+      "roc_auc": 0.7099499152344146,
+      "pr_auc": 0.6135177575788952,
+      "brier": 0.20597376692720754,
+      "threshold": 0.30500000000000005
+    },
+    {
+      "variant": "hgb_without_module",
+      "scope": "without_CCC",
+      "recall": 0.8031131678586454,
+      "f1": 0.5881084411583487,
+      "roc_auc": 0.7182563444034803,
+      "pr_auc": 0.611545189068216,
+      "brier": 0.20223393856184874,
+      "threshold": 0.30500000000000005
+    }
+  ]
+}

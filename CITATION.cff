@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated manuscript and the OULAD dataset."
+title: "Early academic risk prediction with course-module context on OULAD"
+type: software
+version: 0.1.0
+date-released: 2026-11-20
+authors:
+  - family-names: Abuov
+    given-names: A. M.
+  - family-names: Salykova
+    given-names: O. S.
+repository-code: "https://github.com/USERNAME/oulad-course-conditioned-risk-prediction"
+keywords:
+  - learning analytics
+  - academic risk
+  - OULAD
+  - BiLSTM
+  - calibration
+  - ablation study
+
