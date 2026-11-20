@@ -163,12 +163,12 @@ The `results/` directory contains compact CSV and JSON summaries used in the man
 5. Для статьи используйте ссылку на корень опубликованного GitHub-репозитория, например:
 
 ```text
-[https://github.com/USERNAME/oulad-course-conditioned-risk-prediction](https://github.com/adilkhanabuov/oulad-academic-risk)
+(https://github.com/adilkhanabuov/oulad-academic-risk)
 ```
 
 Рекомендуемая формулировка в статье:
 
-> Скрипты подготовки данных, обучения, абляции и бутстреп-анализа доступны в открытом репозитории: [https://github.com/USERNAME/oulad-course-conditioned-risk-prediction](https://github.com/adilkhanabuov/oulad-academic-risk)
+> Скрипты подготовки данных, обучения, абляции и бутстреп-анализа доступны в открытом репозитории: (https://github.com/adilkhanabuov/oulad-academic-risk)
 
 ## License and data terms
 
